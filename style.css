@@ -727,7 +727,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #fff!important;
 }
 
 .icons {
@@ -823,6 +823,22 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+/* bloc-presentation*/
+.text-presentation__p-1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+/* footer*/
+footer h3 {
+    text-transform: none;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+footer h4 {
+    font-size: 14px;
 }
 
 @media (max-width: 1024px) {
