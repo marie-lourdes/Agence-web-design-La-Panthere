@@ -830,6 +830,11 @@ h4 {
     font-size: 22px;
     font-weight: 400;
 }
+
+/*bloc-cta*/
+.cta-contact__heading {
+    font-weight: 700;
+}
 /* footer*/
 footer h3 {
     text-transform: none;
