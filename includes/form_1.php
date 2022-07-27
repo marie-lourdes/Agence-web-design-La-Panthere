@@ -4,8 +4,6 @@
 	{
 		return false;
 		
-		
-	
 	}
 	
 	
@@ -26,13 +24,5 @@
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
 	return true;
-/*	-name login form
-	ansible.builtin.uri:
-    url: C:\Users\MARIE LOURDES\Documents\la-panthere-project\includes\form_1.php
-	method: POST
-	assert:
-	that: 
-	-form_1 = 0
-	success_msg:"'form_1'Your message has been sent." 
-	fail_msg:"'form_1'Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" */
+
 ?>
