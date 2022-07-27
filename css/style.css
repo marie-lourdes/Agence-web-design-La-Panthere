@@ -818,10 +818,7 @@ footer h4 {
     }
     .close-lightbox {
         display: inline-block;
-    }
-   
-
-   
+    } 
 }
 
 @media (max-width: 480px) {
