@@ -10,7 +10,6 @@ a:hover {
     cursor: pointer;
 }
 
-
 .bloc {
     width: 100%;
     clear: both;
@@ -40,15 +39,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
 .bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
 .bg-repeat {
     -webkit-background-size: auto;
     -moz-background-size: auto;
@@ -89,10 +80,8 @@ a:hover {
 
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -103,13 +92,10 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
-
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -136,10 +122,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
@@ -147,10 +129,10 @@ a:hover {
 
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
+
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
+
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
@@ -659,7 +641,6 @@ footer h4 {
     color:#fff;
 }
 
-
 /* responsive tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .site-navigation {
@@ -773,7 +754,6 @@ footer h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
-  
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
@@ -796,7 +776,6 @@ footer h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
     .bloc-lg {
         padding: 40px 0;
     }
@@ -805,11 +784,9 @@ footer h4 {
         padding-left: 0;
         padding-right: 0;
     }
- 
     .voffset {
         margin-top: 5px;
     }
-  
     .voffset-lg {
         margin-top: 30px;
     }
@@ -821,12 +798,6 @@ footer h4 {
     } 
 }
 
-@media (max-width: 480px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
 
 
