@@ -1249,7 +1249,9 @@ button.close {
 .navbar-header:after,
 .navbar-header:before,
 .navbar:after,
-.navbar:before {
+.navbar:before,
+.row:after,
+.row:before {
     display: table;
     content: " ";
 }
@@ -1261,7 +1263,8 @@ button.close {
 .nav:after,
 .navbar-collapse:after,
 .navbar-header:after,
-.navbar:after {
+.navbar:after,
+.row:after {
     clear: both;
 }
 
