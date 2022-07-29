@@ -1,9 +1,9 @@
 /* style general*/
-body{
+body {
     background-color: #FFF;
 }
 
-body,a,label {
+body, a, label {
     font-weight: 400;
     color: #575757;
 }
@@ -49,14 +49,67 @@ a:hover, .link--bold:hover, .social__icon:hover {
     color: #F3976C;
 }
 
-.btn--color {
-    background: #F3976C;
+.btn, h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn {
     color: #FFF;
+    padding: 12px 28px;
+    font: 16px/1.3333333;
+    margin: 22px 5px 5px 0;
+    background: #F3976C;
+    font-size: 16px;
+   
 }
 
 .btn:hover {
     background: #c27956;
     color: #FFF;
+}
+
+.btn--contact{
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border-radius: 40px;
+}
+.form__button {
+    display: block;
+    width: 100%; 
+    border-radius: 6px; 
+}
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    padding: 6px 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
+    transition: all .3s ease-in-out;  
+}
+
+.scrollToTop span {
+    margin-top: 6px;
+    
+}
+
+a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
+   
+    background-color: rgba(0, 0, 0, .3);
+}
+.scrollToTop:hover, .scrollToTop:focus {
+    color: #F3976C;
+}
+    
+.showScrollTop {
+    font-size: 14px;
+    opacity: 1;
 }
 
 .bloc {
@@ -251,28 +304,6 @@ a:hover, .link--bold:hover, .social__icon:hover {
     margin-bottom: 40px;
 }
 
-.btn {
-    margin: 0 5px 5px 0;
-}
-
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
-}
-
-.btn-rd {
-    border-radius: 40px;
-}
-
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
-
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
@@ -282,25 +313,7 @@ a:hover, .link--bold:hover, .social__icon:hover {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
 
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 /* realisation*/
 
@@ -429,18 +442,6 @@ a[data-lightbox]:hover img {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto;
-}
-
-.cta-hero, h3 {
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.cta-hero {
-    margin-top: 22px;
-    color: #FFF;
-    padding: 12px 28px;
-    font-size: 16px;
 }
 
 .med-width-whitespace {
