@@ -365,11 +365,6 @@ address {
     margin-left: auto;
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .col-md-8,
 .col-sm-12,
 .col-sm-3,
@@ -1254,9 +1249,7 @@ button.close {
 .navbar-header:after,
 .navbar-header:before,
 .navbar:after,
-.navbar:before,
-.row:after,
-.row:before {
+.navbar:before {
     display: table;
     content: " ";
 }
@@ -1268,8 +1261,7 @@ button.close {
 .nav:after,
 .navbar-collapse:after,
 .navbar-header:after,
-.navbar:after,
-.row:after {
+.navbar:after {
     clear: both;
 }
 

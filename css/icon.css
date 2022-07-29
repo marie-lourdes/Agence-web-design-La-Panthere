@@ -19,6 +19,8 @@
     font-style: normal;
 }
 
+/* icons et-line*/
+
 .et-icon-browser,
 .et-icon-edit,
 .et-icon-presentation {
@@ -46,6 +48,7 @@
     content: "\e01c";
 }
 
+/*icons fontawesome*/
 
 .fa {
     display: inline-block;

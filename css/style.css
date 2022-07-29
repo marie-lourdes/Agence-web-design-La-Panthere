@@ -154,8 +154,8 @@ a {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row-no-gutters > [class^="col-"],
+.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -649,10 +649,7 @@ footer h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none;
     }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
+    
     .site-navigation {
         position: inherit;
         transform: none;
