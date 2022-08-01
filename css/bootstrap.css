@@ -749,14 +749,6 @@ fieldset[disabled] a.btn {
     overflow-y: auto;
 }
 
-.container-fluid>.navbar-collapse,
-.container-fluid>.navbar-header,
-.container>.navbar-collapse,
-.container>.navbar-header {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .navbar-brand {
     float: left;
     height: 50px;
