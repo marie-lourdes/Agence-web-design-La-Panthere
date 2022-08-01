@@ -42,7 +42,7 @@ button {
     outline: none;
 }
 
-.link--bold{
+.link--bold {
     font-weight: 900;
     text-decoration: underline;
 }
@@ -79,7 +79,7 @@ a:hover, .link--bold:hover, .social__icon:hover {
     color: #FFF;
 }
 
-.btn--contact{
+.btn--contact {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
@@ -201,7 +201,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .navbar .nav {
-    padding-top: 2px 0 0 0;
+    padding-top: 2px 0 0;
     margin:0 -16px 0 0;
     float: right;
     z-index: 1;
@@ -209,7 +209,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 
 .nav > li {
     float: left;
-    margin: 4px 0 0 0;
+    margin: 4px 0 0;
     font-size: 16px;
 }
 
@@ -238,7 +238,6 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
 
 .dropdown-menu .dropmenu-flow-right {
     top: 100%;
@@ -296,7 +295,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .services__icons {
-    margin: 24px 0 14px 0;
+    margin: 24px 0 14px;
     font-size: 60px;
     color: #364577;
     border-color: #364577;
@@ -336,11 +335,11 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .portfolio-thumb {
-    margin: 0 0 24px 0;
+    margin: 0 0 24px;
 }
 
 .portfolio-row {
-    margin: 50px 0 44px 0;
+    margin: 50px 0 44px;
 }
 
 a[data-lightbox] {
@@ -651,12 +650,14 @@ footer h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 5px;
-    }
+  
     .close-lightbox {
         display: inline-block;
     } 
+    
+    form {
+        padding: 5px;
+    }
 }
 
 
