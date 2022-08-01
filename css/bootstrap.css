@@ -143,7 +143,6 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -254,10 +253,6 @@ p {
     margin: 0 0 10px;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
@@ -363,11 +358,6 @@ address {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 .col-md-8,
@@ -489,7 +479,6 @@ textarea.form-control {
 
 .btn {
     display: inline-block;
-    padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
@@ -548,22 +537,6 @@ fieldset[disabled] .btn {
 a.btn.disabled,
 fieldset[disabled] a.btn {
     pointer-events: none;
-}
-
-.btn-lg {
-    padding: 10px 16px;
-    font-size: 18px;
-    line-height: 1.3333333;
-    border-radius: 6px;
-}
-
-.btn-block {
-    display: block;
-    width: 100%;
-}
-
-.btn-block+.btn-block {
-    margin-top: 5px;
 }
 
 .fade {
@@ -775,14 +748,6 @@ fieldset[disabled] a.btn {
     overflow-y: auto;
 }
 
-.container-fluid>.navbar-collapse,
-.container-fluid>.navbar-header,
-.container>.navbar-collapse,
-.container>.navbar-header {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .navbar-brand {
     float: left;
     height: 50px;
@@ -864,35 +829,6 @@ fieldset[disabled] a.btn {
 
 .breadcrumb>.active {
     color: #777;
-}
-
-.label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
-}
-
-a.label:focus,
-a.label:hover {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.label:empty {
-    display: none;
-}
-
-.btn .label {
-    position: relative;
-    top: -1px;
 }
 
 .alert {
