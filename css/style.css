@@ -2,6 +2,7 @@
 
 body {
     background-color: #FFF;
+    font-family: Helvetica
 }
 
 body, a, label {
@@ -51,7 +52,7 @@ button {
 }
 
 a:hover, .link--bold:hover, .social__icon:hover {
-    color: rgb(255, 255, 255, 1);
+    color: #FFF;
     text-decoration: none;
 } 
 
@@ -147,28 +148,24 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0px 20px;
 }
 
 /* navigation*/
 .navbar {
-    margin-bottom: 0;
+    margin: 0;
     z-index: 1;
 }
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin: 4px 0 0 0;
     font-size: 16px;
 }
 
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
 }
 
@@ -181,18 +178,20 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
+
 .navbar a, 
 .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a:focus {
     color: #000;
+    background: transparent;
 }
 
 .navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
+    padding-top: 2px 0 0 0;
+    margin:0 -16px 0 0;
     float: right;
     z-index: 1;
 }
@@ -201,14 +200,9 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
-
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -270,7 +264,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 
 /* page-contact*/
 .banner-form{
-    background:  url("img/dots-bg.png") #F3976C repeat;
+    background: url("img/dots-bg.png") #F3976C repeat;
 }
 /* page contact END */
 
@@ -298,8 +292,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .services__icons {
-    margin-bottom: 14px;
-    margin-top: 24px;
+    margin: 24px 0 14px 0;
     font-size: 60px;
     color: #364577;
     border-color: #364577;
@@ -328,7 +321,7 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     font-weight: 400;
 }
 .presentation__p-2 {
-    color: #fff;
+    color:  #FFF;
 }
 
 /* REALISATION*/
@@ -339,12 +332,11 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin: 50px 0 44px 0;
 }
 
 a[data-lightbox] {
@@ -355,7 +347,6 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -469,7 +460,7 @@ footer {
 }
 
 footer h3, footer h4 {
-    color: #fff;
+    color:  #FFF;
 }
 
 footer h3 {
