@@ -546,8 +546,7 @@ footer h4 {
     .container {
         width: 100%;
     }
-    .page-container,
-    #hero-bloc {
+    .page-container {
         overflow-x: hidden;
         position: relative;
     }
@@ -643,18 +642,9 @@ footer h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-  
-    .voffset {
-        margin-top: 5px;
-    }
-    .voffset-lg {
-        margin-top: 30px;
-    }
-  
     .close-lightbox {
         display: inline-block;
     } 
-    
     form {
         padding: 5px;
     }
