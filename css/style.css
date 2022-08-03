@@ -332,14 +332,6 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 /* BLOC PRESENTATION*/
-.portfolio__pictures {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.portfolio__first-row {
-    margin-bottom: 50px;
-}
 
 .presentation--bg {
     background-image: url("img/image-de-presentation.bmp"); 
@@ -356,6 +348,15 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 /* REALISATION*/
+.portfolio__pictures {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 1000px;
+}
+
+.portfolio__first-row {
+    margin-bottom: 50px;
+}
 
 .portfolio--bg {
     background: url("img/lines-h2-bg.png") repeat;  
@@ -364,6 +365,11 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 
 .portfolio-thumb {
     margin: 0 0 24px;
+}
+
+.portfolio img {
+    max-width: 300px;
+    width: 100%;
 }
 
 a[data-lightbox] {
@@ -701,6 +707,10 @@ footer h4 {
     }
     .bloc-lg {
         padding: 40px 0;
+    }
+
+    .portfolio img {
+          max-width: 100%;
     }
     .close-lightbox {
         display: inline-block;
