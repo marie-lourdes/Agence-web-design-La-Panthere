@@ -354,6 +354,10 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     min-height: 1000px;
 }
 
+.portfolio__pictures section {
+    margin-bottom: 30px;
+}
+
 .portfolio__first-row {
     margin-bottom: 50px;
 }
@@ -368,7 +372,6 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 .portfolio img {
-    max-width: 300px;
     width: 100%;
 }
 
