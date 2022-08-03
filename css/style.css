@@ -332,6 +332,14 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
 }
 
 /* BLOC PRESENTATION*/
+.portfolio__pictures {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio__first-row {
+    margin-bottom: 50px;
+}
 
 .presentation--bg {
     background-image: url("img/image-de-presentation.bmp"); 
