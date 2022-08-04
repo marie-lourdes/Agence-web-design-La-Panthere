@@ -38,7 +38,7 @@ p {
     font-weight: 400;
 }
 
-.banner__heading, .presentation__p-1, .cta-contact__heading, .banner-form__heading, .banner-form p, .banner-sitemap {
+.banner__heading, .presentation__p-1, .cta-contact__heading,.banner-form p, .banner-sitemap {
     color: #F3976C;
 }
 
@@ -500,6 +500,10 @@ footer {
     background-color: #F3976C;
 }
 
+footer .container {
+    width: 100%;
+}
+
 footer h3, footer h4,.link-sitemap a{
     color:  #FFF;
 }
@@ -524,10 +528,6 @@ footer h3 {
     text-decoration: none;
     
 }
-    
-footer h4 {
-    font-size: 14px; 
-}
 
 .social {
     max-width: 100%;
@@ -548,6 +548,19 @@ footer h4 {
     padding: 0;
 }
 
+.footer__bloc-link section {
+    margin-top: 50px;
+}
+
+footer h4 {
+    font-size: 14px; 
+    text-align: left;
+}
+
+footer ul {
+    padding-left: 0
+}
+
 footer ul > li  {
     list-style:none;
 }
@@ -556,10 +569,17 @@ footer ul > li  {
 
 .banner-form__heading {
     font-size: 38px;
+    color: rgba(255, 255, 255, .6);
 }
 
 .mg-lg {
     margin: 10px 0 40px;  
+}
+
+.form-project__intro {
+    color: #F3976C;
+    font-size: 12px;
+    text-align: left;
 }
 
 .form-control {
@@ -575,30 +595,49 @@ footer ul > li  {
 
 /*PAGE SITEMAP*/
 
-.banner-sitemap + p{
+.banner-sitemap + p, .index-pages a {
     color: #fff;
+   
+}
+
+.banner-sitemap + p {
     font-size: 13px;
 }
+
 .index-pages {
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 500px;
 }
- .index-pages ul > li {
-    margin: 30px 0;
- }
 
- .index-pages a {
+.index-pages ul > li {
+    margin: 30px 0;
+}
+
+.index-pages a {
     background: #F3976C;
     padding: 10px;
- }
+}
+
+.index-pages a:focus, .index-pages a:hover {
+    background: transparent;
+    color: #575757;  
+}
 
 /* responsive desktop*/ 
+
+@media screen and (min-width: 992px) {
+    .footer__bloc-link {
+        margin-left: 15%;
+
+    }
+}
 @media screen and (max-width:992px) {
     .banner--bg, .presentation--bg {
         background-attachment: scroll;
     }
+  
 }
 
 /* responsive tablet*/
@@ -646,10 +685,15 @@ footer ul > li  {
        padding-left: constant(safe-area-inset-left);
        padding-right: constant(safe-area-inset-right);      
     }
-
-    .portfolio__pictures {
-        min-height: 900px;
+    .portfolio .container {
+        padding-bottom:0;
     }
+
+    .footer__bloc-link {
+        margin-left: 10%;
+
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -670,15 +714,7 @@ footer ul > li  {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-        padding: 0 10px;
-    }
+   
     .navbar {
         padding: 20px 0;
     }
