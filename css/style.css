@@ -14,7 +14,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+.services__reviews {
     text-align: center;
 }
 
@@ -30,6 +31,11 @@ h2 {
 
 p {
     font-size: 11px;
+}
+
+.services__intro p,.presentation__p-1 {
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .banner__heading, .presentation__p-1, .cta-contact__heading, .banner-form__heading, .banner-form p, .banner-sitemap {
@@ -307,6 +313,24 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     margin: auto;
 }
 
+.services__reviews {
+    font-size: 20px;
+    margin: 80px auto 0;
+    width: 100%;
+}
+
+.services__reviews q {
+    font-style: italic;
+    display:inline-block;
+    width: 75%;
+}
+
+.services__reviews footer {
+    background: initial;
+    font-family: "Noto Sans Light";
+    font-size: 18px;
+}
+
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
@@ -319,15 +343,24 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     padding: 40px;
 }
 
-.presentation__p-1 {
-    font-size: 22px;
-    font-weight: 400;
-}
 .presentation__p-2 {
     color:  #FFF;
 }
 
 /* REALISATION*/
+.portfolio__pictures {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 1000px;
+}
+
+.portfolio__pictures section {
+    margin-bottom: 30px;
+}
+
+.portfolio__first-row {
+    margin-bottom: 50px;
+}
 
 .portfolio--bg {
     background: url("img/lines-h2-bg.png") repeat;  
@@ -338,8 +371,8 @@ a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     margin: 0 0 24px;
 }
 
-.portfolio-row {
-    margin: 50px 0 44px;
+.portfolio img {
+    width: 100%;
 }
 
 a[data-lightbox] {
@@ -677,6 +710,10 @@ footer h4 {
     }
     .bloc-lg {
         padding: 40px 0;
+    }
+
+    .portfolio img {
+          max-width: 100%;
     }
     .close-lightbox {
         display: inline-block;
