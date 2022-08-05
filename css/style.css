@@ -531,17 +531,13 @@ footer h3 {
 }
 
 .social {
-    max-width: 100%;
-    margin: auto;
+    max-width: 600px;
+    margin: 2% auto;
     font-size: 30px;
 }
 
 .social div {
     text-align: center;;
-}
-
-.row-no-gutters {
-    margin: 0; 
 }
 
 .row-no-gutters > [class^="col-"],
@@ -815,18 +811,21 @@ input[type="email"] + .help-block .alert-warning::after {
     .bloc-lg {
         padding: 40px 0;
     }
-
     .portfolio__pictures section {
         margin-bottom: 40px;
     }
-
     .portfolio__first-row {
-        margin-bottom:0;
+        margin-bottom: 0;
     }
-  
     .close-lightbox {
         display: inline-block;
     } 
+    .social {
+        max-width: 250px;
+        display: flex;
+        justify-content: space-between;
+        margin: 2% auto;
+    }
     form {
         padding: 5px;
     }
