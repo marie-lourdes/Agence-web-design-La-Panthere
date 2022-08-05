@@ -597,6 +597,11 @@ footer ul > li  {
     border-radius: 6px; 
 }
 
+.contact-information p {
+    font-size: 13px;
+    line-height: 2.5;
+}
+
 /*PAGE SITEMAP*/
 
 .banner-sitemap + p, .index-pages a {
