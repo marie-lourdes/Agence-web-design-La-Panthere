@@ -826,6 +826,9 @@ input[type="email"] + .help-block .alert-warning::after {
         justify-content: space-between;
         margin: 2% auto;
     }
+    .banner-form__heading {
+        font-size: 40px;
+    }
     form {
         padding: 5px;
     }
