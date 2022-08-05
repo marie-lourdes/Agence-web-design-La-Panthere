@@ -80,7 +80,7 @@ a:hover, .link--bold:hover, .social__icon:hover {
     background: #F3976C;   
 }
 
-.btn:hover {
+.btn:focus, .btn:hover {
     background: #c27956;
     color: #FFF;
 }
@@ -597,10 +597,6 @@ footer ul > li  {
     outline-color: red;
     box-shadow: 0 0 3px 2px red;
     
-}
-
-.form-group.error input {
-    outline-color: #F3976C;
 }
 
 .form-group.success input {
