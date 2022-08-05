@@ -33,12 +33,12 @@ p {
     font-size: 11px;
 }
 
-.services__intro p,.presentation__p-1 {
+.services__intro p, .presentation__p-1 {
     font-size: 22px;
     font-weight: 400;
 }
 
-.banner__heading, .presentation__p-1, .cta-contact__heading,.banner-form p, .banner-sitemap {
+.banner__heading, .presentation__p-1, .cta-contact__heading, .banner-form p, .banner-sitemap {
     color: #F3976C;
 }
 
@@ -80,7 +80,7 @@ a:hover, .link--bold:hover, .social__icon:hover {
     background: #F3976C;   
 }
 
-.btn:hover {
+.btn:focus, .btn:hover {
     background: #c27956;
     color: #FFF;
 }
@@ -207,13 +207,14 @@ header.bloc {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
+
 .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
 .navbar .nav {
     padding: 2px 0 0;
-    margin:0 -16px 0 0;
+    margin: 0 -16px 0 0;
     float: right;
     z-index: 1;
 }
@@ -268,7 +269,7 @@ header.bloc {
 /* BACKGROUND*/
 
 .banner--bg, .call-to-action--bg {
-    background:url("img/agence-la-panthere.jpg") top/auto no-repeat;
+    background: url("img/agence-la-panthere.jpg") top/auto no-repeat;
     background-color: #364577;
 }
 
@@ -277,7 +278,7 @@ header.bloc {
 }
 
 /* page-contact*/
-.banner-form{
+.banner-form {
     background: url("img/dots-bg.png") #F3976C repeat;
 }
 /* page contact END */
@@ -326,7 +327,7 @@ header.bloc {
 
 .services__reviews q {
     font-style: italic;
-    display:inline-block;
+    display: inline-block;
     width: 75%;
 }
 
@@ -349,7 +350,7 @@ header.bloc {
 }
 
 .presentation__p-2 {
-    color:  #FFF;
+    color: #FFF;
 }
 
 /* REALISATION*/
@@ -504,7 +505,7 @@ footer .container {
     width: 100%;
 }
 
-footer h3, footer h4,.link-sitemap a{
+footer h3, footer h4, .link-sitemap a {
     color:  #FFF;
 }
 
@@ -535,7 +536,7 @@ footer h3 {
     font-size: 30px;
 }
 
-.social div{
+.social div {
     text-align: center;;
 }
 
@@ -558,11 +559,11 @@ footer h4 {
 }
 
 footer ul {
-    padding-left: 0
+    padding-left: 0;
 }
 
-footer ul > li  {
-    list-style:none;
+footer ul > li {
+    list-style: none;
 }
 
 /* PAGE CONTACT */
@@ -586,6 +587,42 @@ footer ul > li  {
     text-align: left;
 }
 
+/* feeback visuel*/
+.form-group.warning input, .form-group.success input {
+    outline: 1px solid;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-group.warning input {
+    outline-color: red;
+    box-shadow: 0 0 3px 2px red;
+    
+}
+
+.form-group.success input {
+    outline-color: green;
+    box-shadow: 0 0 3px 2px green;
+}
+
+.form-group.success .help-block:before {
+   content: " ☻ Validé";
+   color: green;
+}
+
+.alert-warning {
+    color: red;
+    border: 0;
+    background: transparent;
+}
+
+.alert-warning::after {
+    content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Ex: contact@la-panthère.com.";
+    color: #F3976C;
+    margin-top: 2px;
+}
+/* feedback visuel END*/
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -605,8 +642,7 @@ footer ul > li  {
 /*PAGE SITEMAP*/
 
 .banner-sitemap + p, .index-pages a {
-    color: #fff;
-   
+    color: #FFF;  
 }
 
 .banner-sitemap + p {
@@ -639,17 +675,17 @@ footer ul > li  {
 @media screen and (min-width: 992px) {
     .footer__bloc-link {
         margin-left: 15%;
-
     }
 }
+
 @media screen and (max-width:992px) {
     .banner--bg, .presentation--bg {
         background-attachment: scroll;
     }
-  
 }
 
 /* responsive tablet*/
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar {
         padding: 20px;
@@ -697,12 +733,9 @@ footer ul > li  {
     .portfolio .container {
         padding-bottom:0;
     }
-
     .footer__bloc-link {
         margin-left: 10%;
-
     }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -718,12 +751,12 @@ footer ul > li  {
 }
 
 /*responsive mobile*/
+
 @media screen and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
-    }
-   
+    } 
     .navbar {
         padding: 20px 0;
     }
@@ -775,7 +808,6 @@ footer ul > li  {
     .bloc-lg {
         padding: 40px 0;
     }
-
     .portfolio img {
           max-width: 100%;
     }
