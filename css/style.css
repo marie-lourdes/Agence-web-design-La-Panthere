@@ -606,7 +606,7 @@ footer ul > li {
 }
 
 .form-group.success .help-block:before {
-   content: "Validé";
+   content: " ☻ Validé";
    color: green;
 }
 
