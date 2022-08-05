@@ -531,17 +531,13 @@ footer h3 {
 }
 
 .social {
-    max-width: 100%;
-    margin: auto;
+    max-width: 600px;
+    margin: 2% auto;
     font-size: 30px;
 }
 
 .social div {
     text-align: center;;
-}
-
-.row-no-gutters {
-    margin: 0; 
 }
 
 .row-no-gutters > [class^="col-"],
@@ -695,6 +691,7 @@ input[type="email"] + .help-block .alert-warning::after {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar {
         padding: 20px;
+        margin: 0 30px;
     }
     .site-navigation {
         position: absolute;
@@ -814,12 +811,24 @@ input[type="email"] + .help-block .alert-warning::after {
     .bloc-lg {
         padding: 40px 0;
     }
-    .portfolio img {
-          max-width: 100%;
+    .portfolio__pictures section {
+        margin-bottom: 40px;
+    }
+    .portfolio__first-row {
+        margin-bottom: 0;
     }
     .close-lightbox {
         display: inline-block;
     } 
+    .social {
+        max-width:250px;
+        display: flex;
+        justify-content: space-between;
+        margin: 2% auto;
+    }
+    .banner-form__heading {
+        font-size: 40px;
+    }
     form {
         padding: 5px;
     }
