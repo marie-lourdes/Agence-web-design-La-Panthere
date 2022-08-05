@@ -695,6 +695,7 @@ input[type="email"] + .help-block .alert-warning::after {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar {
         padding: 20px;
+        margin: 0 30px;
     }
     .site-navigation {
         position: absolute;
