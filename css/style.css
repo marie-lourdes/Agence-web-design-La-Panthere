@@ -605,8 +605,8 @@ footer ul > li {
     box-shadow: 0 0 3px 2px green;
 }
 
-.form-group.success .help-block:before {
-   content: " ☻ Validé";
+.form-group.success .help-block::after {
+   content: " ☻ remplissage en cours valide";
    color: green;
 }
 
@@ -616,9 +616,15 @@ footer ul > li {
     background: transparent;
 }
 
-.alert-warning::after {
+input[type="email"] + .help-block .alert-warning::after {
     content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Ex: contact@la-panthère.com.";
     color: #F3976C;
+    margin-top: 2px;
+}
+
+.form-group.success input[type="email"] + .help-block::after {
+    content:" ☻ Ouf! Merci de votre patience";
+    color: green;
     margin-top: 2px;
 }
 /* feedback visuel END*/
