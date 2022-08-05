@@ -815,9 +815,15 @@ input[type="email"] + .help-block .alert-warning::after {
     .bloc-lg {
         padding: 40px 0;
     }
-    .portfolio img {
-          max-width: 100%;
+
+    .portfolio__pictures section {
+        margin-bottom: 40px;
     }
+
+    .portfolio__first-row {
+        margin-bottom:0;
+    }
+  
     .close-lightbox {
         display: inline-block;
     } 
