@@ -572,6 +572,10 @@ footer ul > li  {
     color: rgba(255, 255, 255, .6);
 }
 
+.container-contact {
+    width: 100%;
+}
+
 .mg-lg {
     margin: 10px 0 40px;  
 }
