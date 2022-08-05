@@ -821,7 +821,7 @@ input[type="email"] + .help-block .alert-warning::after {
         display: inline-block;
     } 
     .social {
-        max-width: 250px;
+        max-width:250px;
         display: flex;
         justify-content: space-between;
         margin: 2% auto;
