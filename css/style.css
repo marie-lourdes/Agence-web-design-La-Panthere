@@ -756,6 +756,15 @@ input[type="email"] + .help-block .alert-warning::after {
 /*responsive mobile*/
 
 @media screen and (max-width: 767px) {
+    p, .services h2, h3, label, .help-block {
+        font-size: 16px;
+    }
+    .link--bold, .contact-information p {
+        font-size: 14px;
+    }
+    .services h2, h3 {
+        line-height: 1.5;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -826,10 +835,23 @@ input[type="email"] + .help-block .alert-warning::after {
         justify-content: space-between;
         margin: 2% auto;
     }
+    .footer__bloc-link a {
+        line-height: 2;
+    }
     .banner-form__heading {
         font-size: 40px;
+    }
+    .form-project__intro {
+        font-size: 14px
     }
     form {
         padding: 5px;
     }
+    .contact-information p {
+        margin-top: 20px;
+    }
+    footer h3 {
+        font-size: 12px;
+    }
+
 }
