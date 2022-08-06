@@ -560,6 +560,7 @@ footer ul {
 
 footer ul > li {
     list-style: none;
+    line-height: 1.9;
 }
 
 /* PAGE CONTACT */
@@ -828,15 +829,26 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .close-lightbox {
         display: inline-block;
-    } 
+    }
+    .bloc-sitemap {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .link-sitemap {
+        margin-top:0;
+    }
     .social {
-        max-width:250px;
+        max-width:245px;
         display: flex;
         justify-content: space-between;
-        margin: 2% auto;
+        margin: 3% auto;
+    }
+    .footer__bloc-link  {
+        margin-left: 4%;
     }
     .footer__bloc-link a {
-        line-height: 2;
+       padding: 17px 0;
     }
     .banner-form__heading {
         font-size: 40px;
