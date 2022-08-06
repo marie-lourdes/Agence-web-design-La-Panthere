@@ -756,6 +756,12 @@ input[type="email"] + .help-block .alert-warning::after {
 /*responsive mobile*/
 
 @media screen and (max-width: 767px) {
+    p, .services h2, h3 {
+        font-size: 16px;
+    }
+    .services h2, h3 {
+        line-height: 1.5;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -810,6 +816,9 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .bloc-lg {
         padding: 40px 0;
+    }
+    .link--bold {
+        font-size: 14px;
     }
     .portfolio__pictures section {
         margin-bottom: 40px;
