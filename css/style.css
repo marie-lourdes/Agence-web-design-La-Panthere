@@ -835,6 +835,9 @@ input[type="email"] + .help-block .alert-warning::after {
         justify-content: space-between;
         margin: 2% auto;
     }
+    .footer__bloc-link a {
+        line-height: 2;
+    }
     .banner-form__heading {
         font-size: 40px;
     }
