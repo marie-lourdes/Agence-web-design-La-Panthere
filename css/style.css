@@ -560,6 +560,7 @@ footer ul {
 
 footer ul > li {
     list-style: none;
+    line-height: 1.9;
 }
 
 /* PAGE CONTACT */
@@ -836,7 +837,7 @@ input[type="email"] + .help-block .alert-warning::after {
         margin: 2% auto;
     }
     .footer__bloc-link a {
-        line-height: 2;
+       padding: 17px 0;
     }
     .banner-form__heading {
         font-size: 40px;
