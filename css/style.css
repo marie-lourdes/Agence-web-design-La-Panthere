@@ -766,6 +766,10 @@ input[type="email"] + .help-block .alert-warning::after {
     .services h2, h3 {
         line-height: 1.5;
     }
+    .scrollToTop {
+        bottom: 4px;
+        right: 7px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
