@@ -340,7 +340,7 @@ header.bloc {
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
-    background-image: url("img/image-de-presentation.bmp"); 
+    background-image: url("img/image-de-presentation.jpg"); 
     background-color: #F3976C;   
 }
 
@@ -869,7 +869,6 @@ input[type="email"] + .help-block .alert-warning::after {
     footer h3 {
         font-size: 12px;
     }
-
 }
 
 
