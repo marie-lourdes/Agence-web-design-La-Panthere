@@ -340,7 +340,7 @@ header.bloc {
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
-    background-image: url("img/image-de-presentation.bmp"); 
+    background-image: url("img/image-de-presentation.jpg"); 
     background-color: #F3976C;   
 }
 
@@ -560,6 +560,7 @@ footer ul {
 
 footer ul > li {
     list-style: none;
+    line-height: 1.9;
 }
 
 /* PAGE CONTACT */
@@ -756,6 +757,19 @@ input[type="email"] + .help-block .alert-warning::after {
 /*responsive mobile*/
 
 @media screen and (max-width: 767px) {
+    p, .services h2, h3, label, .help-block {
+        font-size: 16px;
+    }
+    .link--bold, .contact-information p {
+        font-size: 14px;
+    }
+    .services h2, h3 {
+        line-height: 1.5;
+    }
+    .scrollToTop {
+        bottom: 4px;
+        right: 7px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -819,17 +833,40 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .close-lightbox {
         display: inline-block;
-    } 
+    }
+    .bloc-sitemap {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .link-sitemap {
+        margin-top:0;
+    }
     .social {
-        max-width:250px;
+        max-width:245px;
         display: flex;
         justify-content: space-between;
-        margin: 2% auto;
+        margin: 3% auto;
+    }
+    .footer__bloc-link  {
+        margin-left: 4%;
+    }
+    .footer__bloc-link a {
+       padding: 17px 0;
     }
     .banner-form__heading {
         font-size: 40px;
     }
+    .form-project__intro {
+        font-size: 14px
+    }
     form {
         padding: 5px;
+    }
+    .contact-information p {
+        margin-top: 20px;
+    }
+    footer h3 {
+        font-size: 12px;
     }
 }
