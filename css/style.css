@@ -269,8 +269,15 @@ header.bloc {
 /* BACKGROUND*/
 
 .banner--bg, .call-to-action--bg {
-    background: url("img/agence-la-panthere-l.jpg") top/auto no-repeat;
+    background: url("img/agence-la-panthere-l.jpg") no-repeat;
     background-color: #364577;
+}
+.banner--bg {
+    background-size: cover;
+    background-position: top;
+}
+.call-to-action--bg {
+    background-position: right;
 }
 
 .banner--bg, .presentation--bg {
@@ -340,7 +347,7 @@ header.bloc {
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
-    background-image: url("img/image-de-presentation-l.jpg"); 
+    background: url("img/image-de-presentation-l.jpg"); 
     background-color: #F3976C;   
 }
 
@@ -714,7 +721,8 @@ input[type="email"] + .help-block .alert-warning::after {
         max-width: 80%;
     } 
     .banner--bg, .call-to-action--bg {
-    background: url("img/agence-la-panthere-m.jpg");
+        background: url("img/agence-la-panthere-m.jpg") no-repeat;
+        background-size: cover;
     }
     .container {
         width: 100%;
@@ -739,7 +747,8 @@ input[type="email"] + .help-block .alert-warning::after {
        padding-right: constant(safe-area-inset-right);      
     }
     .presentation--bg {
-        background-image: url("img/image-de-presentation-m.jpg"); 
+        background: url("img/image-de-presentation-m.jpg") no-repeat; 
+        background-size: cover;
     }
     .portfolio .container {
         padding-bottom:0;
@@ -825,8 +834,8 @@ input[type="email"] + .help-block .alert-warning::after {
         margin-left: 10px;
     }
     .banner--bg, .call-to-action--bg {
-        background: url("img/agence-la-panthere-s.jpg");
-        }
+        background: url("img/agence-la-panthere-s.jpg") top/cover no-repeat;
+    }
     .bloc,.bloc-sm,
     .bloc-md {
         padding-left: 0;
@@ -836,8 +845,13 @@ input[type="email"] + .help-block .alert-warning::after {
         padding: 40px 0;
     }
     .presentation--bg {
-        background-image: url("img/image-de-presentation-s.jpg"); 
+        background: url("img/image-de-presentation-s.jpg") no-repeat; 
+        background-size: cover;
     }
+   .black-background {
+        padding: 40px 10px;
+        margin: 0 10px;
+    } 
     .portfolio__pictures section {
         margin-bottom: 40px;
     }
