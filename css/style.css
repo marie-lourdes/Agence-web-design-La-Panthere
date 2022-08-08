@@ -168,6 +168,7 @@ header.bloc {
 }
 
 .navbar {
+    min-height: 100px;
     padding: 20px 100px;
     margin: 0;
     z-index: 1;
@@ -187,12 +188,18 @@ header.bloc {
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    display: block;
+    max-height: 300px;
+    position: absolute;
+    left:0;
+    top: -100px;
+    margin-left: 5%;
 }
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -702,6 +709,9 @@ input[type="email"] + .help-block .alert-warning::after {
         padding: 20px;
         margin: 0 30px;
     }
+    .navbar-brand img[src$=svg] {
+        margin-left: -5%;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -792,6 +802,9 @@ input[type="email"] + .help-block .alert-warning::after {
     } 
     .navbar {
         padding: 20px 0;
+    }
+    .navbar-brand img[src$=svg] {
+        margin-left: -5%;
     }
     .navbar .nav {
         padding-top: 0;
@@ -895,5 +908,15 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     footer h3 {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        min-height: 80px
+    }
+    .navbar-brand img[src$=svg] {
+        max-height: 260px;
+        top: -86px;
     }
 }
