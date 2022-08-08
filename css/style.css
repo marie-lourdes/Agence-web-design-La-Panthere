@@ -269,7 +269,7 @@ header.bloc {
 /* BACKGROUND*/
 
 .banner--bg, .call-to-action--bg {
-    background: url("img/agence-la-panthere.jpg") top/auto no-repeat;
+    background: url("img/agence-la-panthere-l.jpg") top/auto no-repeat;
     background-color: #364577;
 }
 
@@ -340,7 +340,7 @@ header.bloc {
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
-    background-image: url("img/image-de-presentation.jpg"); 
+    background-image: url("img/image-de-presentation-l.jpg"); 
     background-color: #F3976C;   
 }
 
@@ -690,6 +690,7 @@ input[type="email"] + .help-block .alert-warning::after {
 /* responsive tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
     .navbar {
         padding: 20px;
         margin: 0 30px;
@@ -711,6 +712,9 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .navbar .nav {
         max-width: 80%;
+    } 
+    .banner--bg, .call-to-action--bg {
+    background: url("img/agence-la-panthere-m.jpg");
     }
     .container {
         width: 100%;
@@ -733,6 +737,9 @@ input[type="email"] + .help-block .alert-warning::after {
        padding: 0 20px;
        padding-left: constant(safe-area-inset-left);
        padding-right: constant(safe-area-inset-right);      
+    }
+    .presentation--bg {
+        background-image: url("img/image-de-presentation-m.jpg"); 
     }
     .portfolio .container {
         padding-bottom:0;
@@ -817,6 +824,9 @@ input[type="email"] + .help-block .alert-warning::after {
         float: left;
         margin-left: 10px;
     }
+    .banner--bg, .call-to-action--bg {
+        background: url("img/agence-la-panthere-s.jpg");
+        }
     .bloc,.bloc-sm,
     .bloc-md {
         padding-left: 0;
@@ -824,6 +834,9 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .bloc-lg {
         padding: 40px 0;
+    }
+    .presentation--bg {
+        background-image: url("img/image-de-presentation-s.jpg"); 
     }
     .portfolio__pictures section {
         margin-bottom: 40px;
@@ -870,7 +883,3 @@ input[type="email"] + .help-block .alert-warning::after {
         font-size: 12px;
     }
 }
-
-
-
-
