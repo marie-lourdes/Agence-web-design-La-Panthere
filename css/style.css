@@ -172,20 +172,26 @@ header.bloc {
 
 .navbar {
     min-height: 100px;
-    padding: 20px 100px;
     margin: 0;
     z-index: 1;
+    padding:0 100px;
 }
 
 .navbar a:hover, .navbar a:focus {
     color: #000;
     background: transparent;
 }
+.navbar-header {
+    margin-top: 0.8%;
+}
 
 .navbar-brand {
-    height: auto;
+    height: 80px;
     padding: 3px 15px;
     line-height: 44px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
 }
 
 .navbar-brand img {
@@ -202,7 +208,6 @@ header.bloc {
     top: -100px;
     margin-left: 5%;
 }
-
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -224,7 +229,7 @@ header.bloc {
 
 .navbar .nav {
     padding: 2px 0 0;
-    margin: 0 -16px 0 0;
+    margin: 19px -16px 0 0;
     float: right;
     z-index: 1;
 }
@@ -735,6 +740,7 @@ input[type="email"] + .help-block .alert-warning::after {
     }
     .navbar .nav {
         max-width: 80%;
+        margin: 0;
     } 
     .banner--bg, .call-to-action--bg {
         background: url("img/agence-la-panthere-m.jpg") no-repeat;
@@ -807,10 +813,25 @@ input[type="email"] + .help-block .alert-warning::after {
         position: relative;
     } 
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 80%;
+        top: -8px;
     }
     .navbar-brand img[src$=svg] {
         margin-left: -5%;
+        left: -8px;
+    }
+    .navbar-brand img {
+        max-height: 40px;
+        width: auto;
+    }
+    .navbar-toggle {
+        top: 13px;
+    }
+    span.icon-bar {
+        margin-bottom:7px;
     }
     .navbar .nav {
         padding-top: 0;
@@ -839,12 +860,8 @@ input[type="email"] + .help-block .alert-warning::after {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-        margin: 8% 0 -6%;
+        margin: 0;
 
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -923,8 +940,12 @@ input[type="email"] + .help-block .alert-warning::after {
     .navbar {
         min-height: 80px
     }
+    .navbar-brand {
+       top: -2px;
+    }
     .navbar-brand img[src$=svg] {
         max-height: 260px;
         top: -86px;
     }
+    
 }
