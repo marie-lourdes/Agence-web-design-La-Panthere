@@ -77,7 +77,10 @@ a:hover, .link--bold:hover, .social__icon:hover {
     font-size: 16px;
     line-height: 1.3333333;
     margin: 22px 5px 5px 0;
-    background: #F3976C;   
+    background: #F3976C; 
+    -webkit-filter:contrast(110%) brightness(90%);
+    -moz-filter: contrast(110%) brightness(90%);
+    filter: contrast(110%) brightness(90%);  
 }
 
 .btn:focus, .btn:hover {
@@ -513,6 +516,9 @@ a[data-lightbox]:hover img {
 
 footer {
     background-color: #F3976C;
+    -webkit-filter:contrast(110%) brightness(90%);
+    -moz-filter: contrast(110%) brightness(90%);
+    filter: contrast(110%) brightness(90%);
 }
 
 footer .container {
