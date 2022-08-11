@@ -55,7 +55,7 @@ button {
 .link--bold, .social__icon {
     color: rgba(255, 255, 255, .6);
 }
-a:focus, button.navbar-toggle:focus-visible {
+a:focus-visible, button.navbar-toggle:focus-visible {
     outline:2px solid #000;  
 }
 
