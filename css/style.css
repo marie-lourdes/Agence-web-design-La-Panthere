@@ -45,7 +45,6 @@ p {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none;
 }
 
 .link--bold {
@@ -56,6 +55,10 @@ button {
 .link--bold, .social__icon {
     color: rgba(255, 255, 255, .6);
 }
+a:focus, button.navbar-toggle:focus-visible {
+    outline:2px solid #000;  
+}
+
 
 a:focus,
 a:hover,
@@ -88,9 +91,10 @@ a:hover,
     filter: contrast(110%) brightness(90%);  
 }
 
-.btn:focus, .btn:hover {
+.btn:focus-visible, .btn:hover {
     background: #c27956;
     color: #FFF;
+    outline-color: #000;
 }
 
 .btn--contact {
@@ -496,6 +500,10 @@ a[data-lightbox]:hover img {
     opacity: .4;
 }
 
+#lightbox-modal .modal-dialog:focus-visible {
+    outline: 5px solid red;
+}
+
 .next-lightbox {
     padding: 6px 8px 1px 13px;
     right: 25px;
@@ -800,6 +808,7 @@ input[type="email"] + .help-block .alert-warning::after {
 /*responsive mobile*/
 
 @media screen and (max-width: 767px) {
+  
     p, .services h2, h3, label, .help-block {
         font-size: 16px;
     }
