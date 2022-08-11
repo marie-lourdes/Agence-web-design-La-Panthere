@@ -57,7 +57,12 @@ button {
     color: rgba(255, 255, 255, .6);
 }
 
-a:hover, .link--bold:hover, .social__icon:hover {
+a:focus,
+a:hover,
+.link--bold:focus,
+.link--bold:hover,
+.social__icon:focus,
+.social__icon:hover {
     color: #FFF;
     text-decoration: none;
 } 
