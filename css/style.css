@@ -907,7 +907,17 @@ input[type="email"] + .help-block .alert-warning::after {
     .portfolio__pictures section {
         margin-bottom: 40px;
     }
-    .portfolio__first-row {
+    p.lightbox-caption {
+        font-size: 14px;
+    }
+   .modal-body .lightbox-caption{
+      left: 0;
+      right: 0;
+    }
+    .wedding[datacaption]{
+        bottom:-6px;
+    }
+ .portfolio__first-row {
         margin-bottom: 0;
     }
     .close-lightbox {
