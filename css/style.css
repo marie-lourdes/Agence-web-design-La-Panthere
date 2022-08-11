@@ -418,7 +418,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:focus::before, a[data-lightbox]:hover::before {
     content: "+";
     font-size: 32px;
     width: 50px;
@@ -435,7 +435,7 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:focus img, a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
