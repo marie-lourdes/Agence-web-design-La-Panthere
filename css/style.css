@@ -120,7 +120,7 @@ a:hover,
     margin-top: 6px;  
 }
 
-a.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
+button.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
     background-color: rgba(0, 0, 0, .3);
 }
 .scrollToTop:hover, .scrollToTop:focus {
@@ -584,7 +584,7 @@ footer h3 {
 }
 
 .footer__bloc-link section {
-    margin-top: 50px;
+    margin-top: 50px;    
 }
 
 footer h4 {
