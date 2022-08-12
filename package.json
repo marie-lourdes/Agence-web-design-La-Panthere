@@ -1,0 +1,14 @@
+{
+  "name": "la-panthere-project",
+  "version": "1.0.0",
+  "description": "Site agence webdesign La Panthère",
+  "main": "index.js",
+  "scripts": {
+    "prefixer":"postcss ./css/style.css --use autoprefixer -d ./css/",
+    "prefixe-icon":"postcss ./css/icon.css --use autoprefixer -d ./css/",
+    "prefixe-bootstrap":"postcss ./css/bootstrap.css --use autoprefixer -d ./css/"
+  },
+  "author": "Marie-Lourdes LEPERLIER",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
