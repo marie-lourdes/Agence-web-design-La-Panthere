@@ -575,7 +575,7 @@ footer h3 {
 }
 
 .social div {
-    text-align: center;;
+    text-align: center;
 }
 
 .row-no-gutters > [class^="col-"],
@@ -583,8 +583,13 @@ footer h3 {
     padding: 0;
 }
 
+.footer__bloc-link {
+    position: relative;
+    left: 10%;
+}
 .footer__bloc-link section {
-    margin-top: 50px;    
+    margin-top: 50px; 
+    padding: 0;   
 }
 
 footer h4 {
@@ -712,12 +717,6 @@ input[type="email"] + .help-block .alert-warning::after {
 }
 
 /* responsive desktop*/ 
-
-@media screen and (min-width: 992px) {
-    .footer__bloc-link {
-        margin-left: 15%;
-    }
-}
 
 @media screen and (max-width:992px) {
     .banner--bg, .presentation--bg {
