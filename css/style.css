@@ -691,7 +691,7 @@ footer ul > li {
 }
 
 input[type="email"] + .help-block .alert-warning::after {
-    content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Ex: contact@la-panthère.com.";
+    content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Exemple: contact@la-panthère.com.";
     color: #F3976C;
     margin-top: 2px;
 }
