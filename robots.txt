@@ -1,4 +1,4 @@
-sitemap:https://marie-lourdes.github.io/Agence-web-design-La-Panthere/sitemap.xml
 user-agent: *
 allow: /
 
+sitemap:https://marie-lourdes.github.io/Agence-web-design-La-Panthere/sitemap.xml
