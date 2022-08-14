@@ -656,7 +656,9 @@ footer ul > li {
     font-size: 12px;
     text-align: left;
     font-weight: 600;
-    filter: brightness(90%);
+    -webkit-filter:contrast(110%) brightness(90%);
+    -moz-filter: contrast(110%) brightness(90%);
+        filter: contrast(110%) brightness(90%);
 }
 
 /* feeback visuel*/
