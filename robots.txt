@@ -1,4 +1,0 @@
-user-agent: *
-allow: /
-
-sitemap: https://marie-lourdes.github.io/la-panthere/sitemap.xml
