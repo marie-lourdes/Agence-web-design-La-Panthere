@@ -743,12 +743,15 @@ input[type="email"] + .help-block .alert-warning::after {
 }
 
 .index-pages ul > li {
-    margin: 30px 0;
+    margin: 30px 0; 
 }
 
 .index-pages a {
     background: #F3976C;
     padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 .index-pages a:focus, .index-pages a:hover {
