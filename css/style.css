@@ -750,8 +750,8 @@ input[type="email"] + .help-block .alert-warning::after {
     background: #F3976C;
     padding: 10px;
     font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
+    filter: contrast(110%) brightness(90%);
 }
 
 .index-pages a:focus, .index-pages a:hover {
