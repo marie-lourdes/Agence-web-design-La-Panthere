@@ -33,7 +33,7 @@ p {
     font-size: 11px;
 }
 
-.services__intro p, .presentation__p-1 {
+.services__intro p, .services__intro p strong, .presentation__p-1  {
     font-size: 22px;
     font-weight: 400;
 }
