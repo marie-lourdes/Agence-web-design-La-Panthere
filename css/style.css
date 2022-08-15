@@ -294,7 +294,7 @@ header.bloc {
 /* BACKGROUND*/
 
 .banner--bg, .call-to-action--bg {
-    background: url("img/agence-la-panthere-l.jpg") no-repeat;
+    background: url("img/bureau-agence-webdesign-l.jpg") no-repeat;
     background-color: #364577;
 }
 .banner--bg {
@@ -372,7 +372,7 @@ header.bloc {
 /* BLOC PRESENTATION*/
 
 .presentation--bg {
-    background: url("img/image-de-presentation-l.jpg"); 
+    background: url("img/bureau-presentation-agence-l.jpg"); 
     background-color: #F3976C;   
 }
 
@@ -803,7 +803,7 @@ input[type="email"] + .help-block .alert-warning::after {
         margin: 0;
     } 
     .banner--bg, .call-to-action--bg {
-        background: url("img/agence-la-panthere-m.jpg") no-repeat;
+        background: url("img/bureau-agence-webdesign-m.jpg") no-repeat;
         background-size: cover;
     }
     .container {
@@ -821,7 +821,7 @@ input[type="email"] + .help-block .alert-warning::after {
     }
   
     .presentation--bg {
-        background: url("img/image-de-presentation-m.jpg") no-repeat; 
+        background: url("img/bureau-presentation-agence-m.jpg") no-repeat; 
         background-size: cover;
     }
     .portfolio .container {
@@ -928,7 +928,7 @@ input[type="email"] + .help-block .alert-warning::after {
         margin-left: 10px;
     }
     .banner--bg, .call-to-action--bg {
-        background: url("img/agence-la-panthere-s.jpg") top/cover no-repeat;
+        background: url("img/bureau-agence-webdesign-s.jpg") top/cover no-repeat;
     }
     .bloc,.bloc-sm,
     .bloc-md {
@@ -939,7 +939,7 @@ input[type="email"] + .help-block .alert-warning::after {
         padding: 40px 0;
     }
     .presentation--bg {
-        background: url("img/image-de-presentation-s.jpg") no-repeat; 
+        background: url("img/bureau-presentation-agence-s.jpg") no-repeat; 
         background-size: cover;
     }
    .black-background {
