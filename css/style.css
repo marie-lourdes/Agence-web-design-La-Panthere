@@ -362,6 +362,9 @@ header.bloc {
     display: inline-block;
     width: 75%;
 }
+.services__reviews q strong {
+    font-weight: 400;
+}
 
 .services__reviews footer {
     background: initial;
