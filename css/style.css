@@ -1,1 +1,1032 @@
-body{background-color: #FFF;font-family: Arial, sans-serif}body, a, label{font-weight: 400;color: #575757}h1,h2,h3,h4,p,.services__reviews{text-align: center}h2{font-size: 22px;line-height: 1.4em}.services h2, h3{font-size: 15px;color: #333}p{font-size: 11px}.services__intro p, .services__intro p strong, .presentation__p-1{font-size: 22px;font-weight: 400}.banner__heading, .presentation__p-1, .cta-contact__heading, .banner-form p, .banner-sitemap{color: #F3976C}a,button{-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out}.link--bold{font-weight: 900;text-decoration: underline}.link--bold, .social__icon{color: rgba(255, 255, 255, .6)}a:focus-visible, button.navbar-toggle:focus-visible{outline: 2px solid #000}a:focus,a:hover,.link--bold:focus,.link--bold:hover,.social__icon:focus,.social__icon:hover{color: #FFF;text-decoration: none}.cta-button{text-align: center}.btn, h3, .services h2{text-transform: uppercase;font-weight: 700}.btn{color: #FFF;padding: 12px 28px;font-size: 16px;line-height: 1.3333333;margin: 22px 5px 5px 0;background: #F3976C;-webkit-filter: contrast(110%) brightness(90%);-moz-filter: contrast(110%) brightness(90%);filter: contrast(110%) brightness(90%)}.btn:focus-visible, .btn:hover{background: #c27956;color: #FFF;outline-color: #000}.btn--contact{border: 1px solid rgba(0, 0, 0, .08);border-bottom-color: rgba(0, 0, 0, .1);text-shadow: 0 1px 0 rgba(0, 0, 1, .1);-webkit-box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);border-radius: 40px}.scrollToTop{width: 40px;height: 40px;padding: 6px 12px;position: fixed;bottom: 20px;right: 20px;opacity: 0;z-index: 500;-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out}.scrollToTop span{margin-top: 6px}button.scrollToTop, .scrollToTop:hover, .scrollToTop:focus{background-color: rgba(0, 0, 0, .3)}.scrollToTop:hover, .scrollToTop:focus{color: #F3976C}.showScrollTop{font-size: 14px;opacity: 1}.bloc{width: 100%;clear: both;padding: 0 50px;background-size: cover;position: relative}.container{max-width: 1000px}.bloc .container{padding-left: 0;padding-right: 0}.bloc-lg{padding: 100px 50px}.bloc-md{padding: 50px}.bloc-sm{padding: 20px 50px}.tight-width-whitespace{max-width: 600px;margin: auto}.mg-md{margin: 10px 0px 20px}header.bloc{padding: 0}.navbar{min-height: 100px;margin: 0;z-index: 1;padding:0 100px}.navbar a:hover, .navbar a:focus{color: #000;background: transparent}.navbar-header{margin-top: 0.8%}.navbar-brand{height: 80px;padding: 3px 15px;line-height: 44px;width: 300px;position: relative;overflow: hidden}.navbar-brand img{max-height: 200px;margin: 0 5px 0 0;display: inline-block}.navbar-brand img[src$=svg]{display: block;max-height: 300px;position: absolute;left:0;top: -100px;margin-left: 5%}.navbar-toggle{margin: 10px 10px 0 0;border: 0}.navbar-toggle:hover{background: transparent}.navbar-toggle .icon-bar{background-color: rgba(0, 0, 0, .5);width: 26px}.navbar-toggle .icon-bar{color: rgba(0, 0, 0, .6)}.navbar .nav{padding: 2px 0 0;margin: 19px -16px 0 0;float: right;z-index: 1}.nav > li{float: left;margin: 4px 0 0;font-size: 16px}.nav-invert .navbar .nav{float: left}.nav-invert .navbar-header,.nav-invert .navbar-brand{float: right;position: relative;z-index: 2}.nav > li > .dropdown a{background: none;display: block;padding: 14px 15px}.dropdown-menu .dropdown-menu{top: -8px;left: 100%}.navbar-nav .open .dropdown-menu > li > a{text-align: inherit}.dropdown-menu .dropmenu-flow-right{top: 100%;left: 0;margin-left: -1px;border-top-left-radius: 0;border-top-right-radius: 0}.dropdown-menu .dropdown span{border: 4px solid transparent;border-left-color: #000;margin: 6px -5px 0 0;float: right}.banner--bg, .call-to-action--bg{background: url("img/bureau-agence-webdesign-l.jpg") no-repeat;background-color: #364577}.banner--bg{background-size: cover;background-position: top}.call-to-action--bg{background-position: right}.banner--bg, .presentation--bg{background-attachment: fixed}.banner-form{background: url("img/dots-bg.png") #F3976C repeat}.banner::before, .presentation::before, .call-to-action::before, .banner-form::before{content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;background: url("img/texture-paper.png");background-size: 280px}.banner__heading, .banner-sitemap{font-size: 32px}.services__webdesign, .services__strategy, .services__pictures{text-align: center}.services__icons{margin: 24px 0 14px;font-size: 60px;color: #364577;border-color: #364577;text-shadow: 0 1px 2px rgba(0, 0, 0, .3)}.med-width-whitespace{max-width: 800px;margin: auto}.services__reviews{font-size: 20px;margin: 80px auto 0;width: 100%}.services__reviews q{font-style: italic;display: inline-block;width: 75%}.services__reviews q strong{font-weight: 400}.services__reviews footer{background: initial;font-family: "Noto Sans Light";font-size: 18px}.presentation--bg{background: url("img/bureau-presentation-agence-l.jpg");background-color: #F3976C}.black-background{background-color: rgba(165, 147, 99, 0.7);padding: 40px}.presentation__p-2{color: #FFF}.portfolio__pictures{margin-top: 50px;margin-bottom: 50px;min-height: 1000px}.portfolio__pictures section{margin-bottom: 30px}.portfolio__first-row{margin-bottom: 50px}.portfolio--bg{background: url("img/lines-h2-bg.png") repeat;background-size: auto}.portfolio-thumb{margin: 0 0 24px}.portfolio img{width: 100%}a[data-lightbox]{position: relative;display: block;text-align: center}a[data-lightbox]:focus::before, a[data-lightbox]:hover::before{content: " ";font-size: 32px;width: 50px;height: 50px;margin-left: -25px;border-radius: 50%;background: rgba(0, 0, 0, .6);color: #FFF;font-weight: 100;z-index: 1;position: absolute;top: 50%;-ms-transform: translateY(-50%);-webkit-transform: translateY(-50%);transform: translateY(-50%)}a[data-lightbox]:focus img, a[data-lightbox]:hover img{opacity: 0.6;-webkit-animation-fill-mode: none;animation-fill-mode: none}#lightbox-modal{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center}#lightbox-modal .modal-dialog{width: 90%;max-width: 900px;margin: 0 auto}#lightbox-modal .modal-dialog img{max-height: 90vh;margin: 0 auto}.lightbox-caption{padding: 20px;color: #FFF;background: rgba(0, 0, 0, .5);position: absolute;left: 15px;right: 15px;bottom: 5px;font-size: 12px}.close-lightbox{color: #FFF;font-size: 30px;position: absolute;top: 20px;right: 20px;z-index: 20;background: rgba(0, 0, 0, .5);border: none;line-height: 30px;padding: 0 9px 5px;opacity: 0.3}.close-lightbox:hover,.next-lightbox:hover,.prev-lightbox:hover{opacity: 1;color: #FFF}.next-lightbox,.prev-lightbox{font-size: 20px;color: rgba(255, 255, 255, .9);background: rgba(0, 0, 0, .5);position: absolute;top: 45%;z-index: 1;opacity: .4;-webkit-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out}#lightbox-modal .modal-dialog:focus-visible{outline: 5px solid red}.next-lightbox{padding: 6px 8px 1px 13px;right: 25px}.prev-lightbox{padding: 6px 13px 1px 10px;left: 25px}.snapshot-lb .modal-body{padding-bottom: 45px}.snapshot-lb .lightbox-caption{padding: 0;color: rgba(0, 0, 0, .5);background: none}.cta-contact__heading{font-weight: 700}footer{background-color: #F3976C;-webkit-filter:contrast(110%) brightness(90%);-moz-filter: contrast(110%) brightness(90%);filter: contrast(110%) brightness(90%)}footer .container{width: 100%;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column}footer h3, footer h4, .link-sitemap a{color:#FFF}footer h3{text-transform: none;font-size: 11px;font-weight: 400}.bloc-sitemap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center}.link-sitemap{text-decoration: underline;margin-left: 5px}.link-sitemap:focus, .link-sitemap:hover{text-decoration: none}.social{max-width: 600px;margin: 2% auto;font-size: 30px}.social div{text-align: center}.row-no-gutters > [class^="col-"],.row-no-gutters > [class*=" col-"]{padding: 0}.footer__bloc-link{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%}.footer__bloc-link section{margin-top: 50px;padding: 0;white-space: nowrap;width: 20%}footer h4{font-size: 14px;text-align: left}footer ul{padding-left: 0}footer ul > li{list-style: none;line-height: 1.9}.banner-form__heading{font-size: 38px;color: rgba(255, 255, 255, .6)}.container-contact{width: 100%}.mg-lg{margin: 10px 0 40px}.form-project__intro{color: #F3976C;font-size: 12px;text-align: left;font-weight: 600;-webkit-filter:contrast(110%) brightness(90%);-moz-filter: contrast(110%) brightness(90%);filter: contrast(110%) brightness(90%)}.form-group.warning input, .form-group.success input{outline: 1px solid;border-radius: 5px;border: 0}.form-group.warning input{outline-color: red;-webkit-box-shadow: 0 0 3px 2px red;box-shadow: 0 0 3px 2px red}.form-group.success input{outline-color: green;-webkit-box-shadow: 0 0 3px 2px green;box-shadow: 0 0 3px 2px green}.form-group.success .help-block::after{content: " ☻ remplissage en cours valide";color: green}.alert-warning{color: red;border: 0;background: transparent}input[type="email"] .help-block .alert-warning::after{content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Exemple: contact@la-panthère.com.";color: #F3976C;margin-top: 2px}.form-group.success input[type="email"] .help-block::after{content:" ☻ Ouf! Merci de votre patience";color: green;margin-top: 2px}.form-control{border-color: rgba(0, 0, 0, .1);-webkit-box-shadow: none;box-shadow: none}.form__button{display: block;width: 100%;border-radius: 6px}.contact-information p{font-size: 13px;line-height: 2.5}.banner-sitemap p, .index-pages a{color: #FFF}.banner-sitemap p{font-size: 13px}.index-pages{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;margin: 0;height: 500px}.index-pages ul > li{margin: 30px 0}.index-pages a{background: #F3976C;padding: 10px;font-size: 12px;letter-spacing: 0.2rem;filter: contrast(110%) brightness(90%)}.index-pages a:focus, .index-pages a:hover{background: transparent;color: #575757}@media screen and (max-width:992px){.banner--bg, .presentation--bg{background-attachment: scroll}}@media screen and (min-width: 768px) and (max-width: 991px){p{font-size: 14px}.navbar{padding: 20px;margin: 0 30px}.navbar-brand img[src$=svg]{margin-left: -5%}.site-navigation{position: absolute;top: 50%;right: 20px;-ms-transform: translate(0, -50%);-webkit-transform: translateY(-50%);transform: translate(0, -50%)}.nav > li .dropdown-menu a,.nav > li .dropdown-menu a:hover{color: #484848}.nav-invert .site-navigation{left: 0;right: 0}.navbar .nav{max-width: 80%;margin: 0}.banner--bg, .call-to-action--bg{background: url("img/bureau-agence-webdesign-m.jpg") no-repeat;background-size: cover}.container{width: 100%}.page-container{overflow-x: hidden;position: relative}.bloc-group,.bloc-group .bloc{display: block;width: 100%}.presentation--bg{background: url("img/bureau-presentation-agence-m.jpg") no-repeat;background-size: cover}.portfolio .container{padding-bottom:0}.footer__bloc-link section{padding: 0 15px;white-space: normal;width: 30%;margin-left: 2%}}@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){.bloc{padding: 0 20px}}@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5){.banner--bg, .presentation--bg{background-attachment: scroll}}@media screen and (max-width: 767px){p, .services h2, h3, label, .help-block{font-size: 16px}.link--bold, .contact-information p{font-size: 14px}.services h2, h3{line-height: 1.5}.scrollToTop{bottom: 4px;right: 7px}.page-container{overflow-x: hidden;position: relative}.navbar{padding: 10px 0}.navbar-brand{width: 80%;top: -8px}.navbar-brand img[src$=svg]{margin-left: -5%;left: -8px}.navbar-brand img{max-height: 40px;width: auto}.navbar-toggle{top: 13px}span.icon-bar{margin-bottom:7px}.navbar .nav{padding-top: 0;border-top: 1px solid rgba(0, 0, 0, .2);float: none}.site-navigation{position: inherit;-webkit-transform: none;-ms-transform: none;transform: none}.nav > li{margin-top: 0;border-bottom: 1px solid rgba(0, 0, 0, .1);background: rgba(0, 0, 0, .05);text-align: left;padding-left: 15px;width: 100%}.nav > li:hover{background: rgba(0, 0, 0, .08)}.navbar-collapse{padding: 0;overflow-x: hidden;-webkit-box-shadow: none;box-shadow: none;margin: 0}.nav-invert .navbar-header{float: none;width: 100%}.nav-invert .navbar-toggle{float: left;margin-left: 10px}.banner--bg, .call-to-action--bg{background: url("img/bureau-agence-webdesign-s.jpg") top/cover no-repeat}.bloc,.bloc-sm,.bloc-md{padding-left: 0;padding-right: 0}.bloc-lg{padding: 40px 0}.presentation--bg{background: url("img/bureau-presentation-agence-s.jpg") no-repeat;background-size: cover}.black-background{padding: 40px 10px;margin: 0 10px}.portfolio__pictures section{margin-bottom: 40px}p.lightbox-caption{font-size: 14px}.modal-body .lightbox-caption{left: 0;right: 0}.wedding[datacaption]{bottom:-6px}.portfolio__first-row{margin-bottom: 0}.close-lightbox{display: inline-block}.bloc-sitemap{-ms-flex-wrap: wrap;flex-wrap: wrap;width: 95%;margin: 0 auto}.link-sitemap{margin-top:0}.social{max-width:245px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;margin: 3% auto}.footer__bloc-link{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-flow: column wrap;flex-flow: column wrap;margin-left: 8%}.footer__bloc-link section{margin-top: 5%}.footer__bloc-link a{padding: 17px 0}.banner-form__heading{font-size: 40px}.form-project__intro{font-size: 14px}form{padding: 5px}.contact-information p{margin-top: 20px}footer h3{font-size: 12px}}@media screen and (max-width: 360px){.navbar{min-height: 80px}.navbar-brand{top: -2px}.navbar-brand img[src$=svg]{max-height: 260px;top: -86px}}
+/* STYLE GENERAL*/
+
+body {
+    background-color: #FFF;
+    font-family: Arial, sans-serif
+}
+
+body, a, label {
+    font-weight: 400;
+    color: #575757;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+.services__reviews {
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.services h2, h3 {
+    font-size: 15px;
+    color: #333;
+}
+
+p {
+    font-size: 11px;
+}
+
+.services__intro p, .services__intro p strong, .presentation__p-1  {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.banner__heading, .presentation__p-1, .cta-contact__heading, .banner-form p, .banner-sitemap {
+    color: #F3976C;
+}
+
+a,
+button {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.link--bold {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.link--bold, .social__icon {
+    color: rgba(255, 255, 255, .6);
+}
+a:focus-visible, button.navbar-toggle:focus-visible {
+    outline: 2px solid #000;  
+}
+
+a:focus,
+a:hover,
+.link--bold:focus,
+.link--bold:hover,
+.social__icon:focus,
+.social__icon:hover {
+    color: #FFF;
+    text-decoration: none;
+} 
+
+.cta-button {
+    text-align: center;
+}
+
+.btn, h3, .services h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn {
+    color: #FFF;
+    padding: 12px 28px;
+    font-size: 16px;
+    line-height: 1.3333333;
+    margin: 22px 5px 5px 0;
+    background: #F3976C; 
+    -webkit-filter: contrast(110%) brightness(90%);
+       -moz-filter: contrast(110%) brightness(90%);
+            filter: contrast(110%) brightness(90%);  
+}
+
+.btn:focus-visible, .btn:hover {
+    background: #c27956;
+    color: #FFF;
+    outline-color: #000;
+}
+
+.btn--contact {
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+         box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border-radius: 40px;
+}
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    padding: 6px 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+             transition: all .3s ease-in-out;  
+}
+
+.scrollToTop span {
+    margin-top: 6px;  
+}
+
+button.scrollToTop, .scrollToTop:hover, .scrollToTop:focus {
+    background-color: rgba(0, 0, 0, .3);
+}
+.scrollToTop:hover, .scrollToTop:focus {
+    color: #F3976C;
+}
+    
+.showScrollTop {
+    font-size: 14px;
+    opacity: 1;
+}
+
+.bloc {
+    width: 100%;
+    clear: both;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bloc-lg {
+    padding: 100px 50px;
+}
+
+.bloc-md {
+    padding: 50px;
+}
+
+.bloc-sm {
+    padding: 20px 50px;
+}
+
+.tight-width-whitespace {
+    max-width: 600px;
+    margin: auto;
+}
+
+.mg-md {
+    margin: 10px 0px 20px;
+}
+
+/* navigation*/
+header.bloc {
+    padding: 0;
+}
+
+.navbar {
+    min-height: 100px;
+    margin: 0;
+    z-index: 1;
+    padding:0 100px;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #000;
+    background: transparent;
+}
+.navbar-header {
+    margin-top: 0.8%;
+}
+
+.navbar-brand {
+    height: 80px;
+    padding: 3px 15px;
+    line-height: 44px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-brand img {
+    max-height: 200px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+
+.navbar-brand img[src$=svg] {
+    display: block;
+    max-height: 300px;
+    position: absolute;
+    left:0;
+    top: -100px;
+    margin-left: 5%;
+}
+
+.navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0;
+}
+
+.navbar-toggle:hover {
+    background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+
+.navbar-toggle .icon-bar {
+    color: rgba(0, 0, 0, .6);
+}
+
+.navbar .nav {
+    padding: 2px 0 0;
+    margin: 19px -16px 0 0;
+    float: right;
+    z-index: 1;
+}
+
+.nav > li {
+    float: left;
+    margin: 4px 0 0;
+    font-size: 16px;
+}
+
+.nav-invert .navbar .nav {
+    float: left;
+}
+
+.nav-invert .navbar-header,
+.nav-invert .navbar-brand {
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+.nav > li > .dropdown a {
+    background: none;
+    display: block;
+    padding: 14px 15px;
+}
+
+.dropdown-menu .dropdown-menu {
+    top: -8px;
+    left: 100%;
+}
+
+.navbar-nav .open .dropdown-menu > li > a {
+    text-align: inherit;
+}
+
+.dropdown-menu .dropmenu-flow-right {
+    top: 100%;
+    left: 0;
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dropdown-menu .dropdown span {
+    border: 4px solid transparent;
+    border-left-color: #000;
+    margin: 6px -5px 0 0;
+    float: right;
+}
+
+/* BACKGROUND*/
+
+.banner--bg, .call-to-action--bg {
+    background: url("img/bureau-agence-webdesign-l.jpg") no-repeat;
+    background-color: #364577;
+}
+.banner--bg {
+    background-size: cover;
+    background-position: top;
+}
+.call-to-action--bg {
+    background-position: right;
+}
+
+.banner--bg, .presentation--bg {
+    background-attachment: fixed;
+}
+
+/* page-contact*/
+.banner-form {
+    background: url("img/dots-bg.png") #F3976C repeat;
+}
+/* page contact END */
+
+.banner::before, .presentation::before, .call-to-action::before, .banner-form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background: url("img/texture-paper.png");
+    background-size: 280px;   
+} 
+
+/* MAIN BANNER*/
+
+.banner__heading, .banner-sitemap {
+    font-size: 32px;
+}
+
+/* SERVICES*/
+ 
+.services__webdesign, .services__strategy, .services__pictures {
+    text-align: center;
+}
+
+.services__icons {
+    margin: 24px 0 14px;
+    font-size: 60px;
+    color: #364577;
+    border-color: #364577;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.med-width-whitespace {
+    max-width: 800px;
+    margin: auto;
+}
+
+.services__reviews {
+    font-size: 20px;
+    margin: 80px auto 0;
+    width: 100%;
+}
+
+.services__reviews q {
+    font-style: italic;
+    display: inline-block;
+    width: 75%;
+}
+.services__reviews q strong {
+    font-weight: 400;
+}
+
+.services__reviews footer {
+    background: initial;
+    font-family: "Noto Sans Light";
+    font-size: 18px;
+}
+
+/* BLOC PRESENTATION*/
+
+.presentation--bg {
+    background: url("img/bureau-presentation-agence-l.jpg"); 
+    background-color: #F3976C;   
+}
+
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px;
+}
+
+.presentation__p-2 {
+    color: #FFF;
+}
+
+/* REALISATION*/
+
+.portfolio__pictures {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 1000px;
+}
+
+.portfolio__pictures section {
+    margin-bottom: 30px;
+}
+
+.portfolio__first-row {
+    margin-bottom: 50px;
+}
+
+.portfolio--bg {
+    background: url("img/lines-h2-bg.png") repeat;  
+    background-size: auto;
+}
+
+.portfolio-thumb {
+    margin: 0 0 24px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+a[data-lightbox] {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+a[data-lightbox]:focus::before, a[data-lightbox]:hover::before {
+    content: "+";
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .6);
+    color: #FFF;
+    font-weight: 100;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+         -webkit-transform: translateY(-50%);
+             transform: translateY(-50%);
+}
+
+a[data-lightbox]:focus img, a[data-lightbox]:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+         animation-fill-mode: none;
+}
+
+#lightbox-modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#lightbox-modal .modal-dialog {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#lightbox-modal .modal-dialog img {
+    max-height: 90vh;
+    margin: 0 auto;
+}
+
+.lightbox-caption {
+    padding: 20px;
+    color: #FFF;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+    font-size: 12px;
+}
+
+.close-lightbox {
+    color: #FFF;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    line-height: 30px;
+    padding: 0 9px 5px;
+    opacity: 0.3;
+}
+
+.close-lightbox:hover,
+.next-lightbox:hover,
+.prev-lightbox:hover {
+    opacity: 1;
+    color: #FFF;
+}
+
+.next-lightbox,
+.prev-lightbox {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .9);
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    opacity: .4;
+    -webkit-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
+   
+}
+
+#lightbox-modal .modal-dialog:focus-visible {
+    outline: 5px solid red;
+}
+
+.next-lightbox {
+    padding: 6px 8px 1px 13px;
+    right: 25px;
+}
+
+.prev-lightbox {
+    padding: 6px 13px 1px 10px;
+    left: 25px;
+}
+
+.snapshot-lb .modal-body {
+    padding-bottom: 45px;
+}
+
+.snapshot-lb .lightbox-caption {
+    padding: 0;
+    color: rgba(0, 0, 0, .5);
+    background: none;
+}
+    
+/* BLOC CALL TO ACTION*/
+
+.cta-contact__heading {
+    font-weight: 700;
+}
+
+/* FOOTER*/
+
+footer {
+    background-color: #F3976C;
+    -webkit-filter:contrast(110%) brightness(90%);
+         -moz-filter: contrast(110%) brightness(90%);
+             filter: contrast(110%) brightness(90%);
+}
+
+footer .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+footer h3, footer h4, .link-sitemap a {
+    color:  #FFF;
+}
+
+footer h3 {
+    text-transform: none;
+    font-size: 11px;
+    font-weight: 400;  
+}
+
+.bloc-sitemap {
+   display:-webkit-box;
+   display:-ms-flexbox;
+   display:flex; 
+   -webkit-box-pack: center; 
+       -ms-flex-pack: center; 
+           justify-content: center;
+}
+
+.link-sitemap {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.link-sitemap:focus, .link-sitemap:hover {
+    text-decoration: none;
+    
+}
+
+.social {
+    max-width: 600px;
+    margin: 2% auto;
+    font-size: 30px;
+}
+
+.social div {
+    text-align: center;
+}
+
+.row-no-gutters > [class^="col-"],
+.row-no-gutters > [class*=" col-"] {
+    padding: 0;
+}
+
+.footer__bloc-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+   
+}
+.footer__bloc-link section {
+    margin-top: 50px; 
+    padding: 0; 
+    white-space: nowrap; 
+    width: 20%; 
+}
+
+footer h4 {
+    font-size: 14px; 
+    text-align: left;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul > li {
+    list-style: none;
+    line-height: 1.9;
+}
+
+/* PAGE CONTACT */
+
+.banner-form__heading {
+    font-size: 38px;
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-contact {
+    width: 100%;
+}
+
+.mg-lg {
+    margin: 10px 0 40px;  
+}
+
+.form-project__intro {
+    color: #F3976C;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 600;
+    -webkit-filter:contrast(110%) brightness(90%);
+    -moz-filter: contrast(110%) brightness(90%);
+        filter: contrast(110%) brightness(90%);
+}
+
+/* feeback visuel*/
+.form-group.warning input, .form-group.success input {
+    outline: 1px solid;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-group.warning input {
+    outline-color: red;
+    -webkit-box-shadow: 0 0 3px 2px red;
+        box-shadow: 0 0 3px 2px red;
+    
+}
+
+.form-group.success input {
+    outline-color: green;
+    -webkit-box-shadow: 0 0 3px 2px green;
+        box-shadow: 0 0 3px 2px green;
+}
+
+.form-group.success .help-block::after {
+   content: " ☻ remplissage en cours valide";
+   color: green;
+}
+
+.alert-warning {
+    color: red;
+    border: 0;
+    background: transparent;
+}
+
+input[type="email"] + .help-block .alert-warning::after {
+    content:" N'oubliez pas le @ à votre adresse email. Cela ne vous prend que quelques secondes! Exemple: contact@la-panthère.com.";
+    color: #F3976C;
+    margin-top: 2px;
+}
+
+.form-group.success input[type="email"] + .help-block::after {
+    content:" ☻ Ouf! Merci de votre patience";
+    color: green;
+    margin-top: 2px;
+}
+/* feedback visuel END*/
+
+.form-control {
+    border-color: rgba(0, 0, 0, .1);
+    -webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+.form__button {
+    display: block;
+    width: 100%; 
+    border-radius: 6px; 
+}
+
+.contact-information p {
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+/*PAGE SITEMAP*/
+
+.banner-sitemap + p, .index-pages a {
+    color: #FFF;  
+}
+
+.banner-sitemap + p {
+    font-size: 13px;
+}
+
+.index-pages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    height: 500px;
+}
+
+.index-pages ul > li {
+    margin: 30px 0; 
+}
+
+.index-pages a {
+    background: #F3976C;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    filter: contrast(110%) brightness(90%);
+}
+
+.index-pages a:focus, .index-pages a:hover {
+    background: transparent;
+    color: #575757;  
+}
+
+/* responsive desktop*/ 
+
+@media screen and (max-width:992px) {
+    .banner--bg, .presentation--bg {
+        background-attachment: scroll;
+    }
+}
+
+/* responsive tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    p {
+        font-size: 14px;
+    }
+   .navbar {
+        padding: 20px;
+        margin: 0 30px;
+    }
+    .navbar-brand img[src$=svg] {
+        margin-left: -5%;
+    }
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        -ms-transform: translate(0, -50%);
+             -webkit-transform: translateY(-50%);
+                 transform: translate(0, -50%);  
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .navbar .nav {
+        max-width: 80%;
+        margin: 0;
+    } 
+    .banner--bg, .call-to-action--bg {
+        background: url("img/bureau-agence-webdesign-m.jpg") no-repeat;
+        background-size: cover;
+    }
+    .container {
+        width: 100%;
+    }
+    .page-container {
+        overflow-x: hidden;
+        position: relative;
+    }
+   
+    .bloc-group,
+    .bloc-group .bloc {
+        display: block;
+        width: 100%;
+    }
+  
+    .presentation--bg {
+        background: url("img/bureau-presentation-agence-m.jpg") no-repeat; 
+        background-size: cover;
+    }
+    .portfolio .container {
+        padding-bottom:0;
+    }
+
+    .footer__bloc-link section {
+        padding: 0 15px;
+        white-space: normal;
+        width: 30%;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .bloc {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .banner--bg, .presentation--bg {
+        background-attachment: scroll;
+    }
+}
+
+/*responsive mobile*/
+
+@media screen and (max-width: 767px) {
+  
+    p, .services h2, h3, label, .help-block {
+        font-size: 16px;
+    }
+    .link--bold, .contact-information p {
+        font-size: 14px;
+    }
+    .services h2, h3 {
+        line-height: 1.5;
+    }
+    .scrollToTop {
+        bottom: 4px;
+        right: 7px;
+    }
+    .page-container {
+        overflow-x: hidden;
+        position: relative;
+    } 
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 80%;
+        top: -8px;
+    }
+    .navbar-brand img[src$=svg] {
+        margin-left: -5%;
+        left: -8px;
+    }
+    .navbar-brand img {
+        max-height: 40px;
+        width: auto;
+    }
+    .navbar-toggle {
+        top: 13px;
+    }
+    span.icon-bar {
+        margin-bottom:7px;
+    }
+    .navbar .nav {
+        padding-top: 0;
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        float: none;
+    }  
+    .site-navigation {
+        position: inherit;
+        -webkit-transform: none;
+             -ms-transform: none;
+                 transform: none;
+    }
+    .nav > li {
+        margin-top: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, .05);
+        text-align: left;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .nav > li:hover {
+        background: rgba(0, 0, 0, .08);
+    }
+    .navbar-collapse {
+        padding: 0;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        margin: 0;
+    }
+    .nav-invert .navbar-header {
+        float: none;
+        width: 100%;
+    }
+    .nav-invert .navbar-toggle {
+        float: left;
+        margin-left: 10px;
+    }
+    .banner--bg, .call-to-action--bg {
+        background: url("img/bureau-agence-webdesign-s.jpg") top/cover no-repeat;
+    }
+    .bloc,.bloc-sm,
+    .bloc-md {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bloc-lg {
+        padding: 40px 0;
+    }
+    .presentation--bg {
+        background: url("img/bureau-presentation-agence-s.jpg") no-repeat; 
+        background-size: cover;
+    }
+   .black-background {
+        padding: 40px 10px;
+        margin: 0 10px;
+    } 
+    .portfolio__pictures section {
+        margin-bottom: 40px;
+    }
+    p.lightbox-caption {
+        font-size: 14px;
+    }
+   .modal-body .lightbox-caption{
+      left: 0;
+      right: 0;
+    }
+    .wedding[datacaption]{
+        bottom:-6px;
+    }
+   .portfolio__first-row {
+        margin-bottom: 0;
+    }
+    .close-lightbox {
+        display: inline-block;
+    }
+    .bloc-sitemap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .link-sitemap {
+        margin-top:0;
+    }
+    .social {
+        max-width:245px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin: 3% auto;
+    }
+    .footer__bloc-link {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        margin-left: 8%;
+    }
+    .footer__bloc-link section {
+        margin-top: 5%;
+    }
+    .footer__bloc-link a {
+       padding: 17px 0;
+    }
+    .banner-form__heading {
+        font-size: 40px;
+    }
+    .form-project__intro {
+        font-size: 14px
+    }
+    form {
+        padding: 5px;
+    }
+    .contact-information p {
+        margin-top: 20px;
+    }
+    footer h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        min-height: 80px
+    }
+    .navbar-brand {
+       top: -2px;
+    }
+    .navbar-brand img[src$=svg] {
+        max-height: 260px;
+        top: -86px;
+    }
+    
+}
